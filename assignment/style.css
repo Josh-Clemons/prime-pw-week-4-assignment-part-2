@@ -1,0 +1,20 @@
+header {
+    background-color: dimgrey;
+}
+
+h3 {
+    color: blue;
+}
+
+.info {
+    background-color: chartreuse;
+    color: brown; /* Why doesn't this override the h3 tag inside of my .info object? I'm 
+    guessing there is a priority hieararchy? */
+    text-align: center;
+}
+
+
+img {
+    width: auto;
+    height: auto;
+}
