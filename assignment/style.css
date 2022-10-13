@@ -4,17 +4,22 @@ header {
 
 h3 {
     color: blue;
+    font-style: italic;
+    text-align: left;
 }
 
-.info {
+/* Question. What is the hierarchy for deciding what gets applied when a value is declared in multiple areas? I set font color to blue in my h3 above,
+but it does not override to brown below, even though the the h3 is included within .info object*/
+.info { 
     background-color: chartreuse;
-    color: brown; /* Why doesn't this override the h3 tag inside of my .info object? I'm 
-    guessing there is a priority hieararchy? */
+    color: brown; 
     text-align: center;
+    font-style: normal;
 }
 
 
 img {
     width: auto;
     height: auto;
+    border: 1px solid black;
 }
